@@ -172,6 +172,7 @@ ol {
 .steps {
 	display: flex;
 	flex-direction: row;
+	vertical-align: bottom;
 }
 
 .step-content {
@@ -209,7 +210,9 @@ ol {
 }
 
 .steps-img {
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
 	width: 550px;
 	height: 500px;
 	background-image: url("../img/wallet.svg");
@@ -340,7 +343,6 @@ ol {
 		height: 300px;
 		background-size: cover;
 
-		margin-top: auto;
 		margin-bottom: auto;
 	}
 
